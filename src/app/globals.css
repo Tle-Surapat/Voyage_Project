@@ -25,3 +25,9 @@ body {
     text-wrap: balance;
   }
 }
+
+/* src/index.css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Import Flowbite CSS */
+@import 'flowbite';
