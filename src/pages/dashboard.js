@@ -165,7 +165,7 @@ const Dashboard = () => {
           </div>
 
           {/* Scrollable container for diary list */}
-          <div className="bg-white rounded-lg shadow-lg p-4 max-h-80 md:max-h-96 overflow-y-auto">
+          <div className="bg-white rounded-lg shadow-lg p-4 max-h-500 overflow-y-auto">
             {diaryEntries.length > 0 ? (
               diaryEntries.map((entry) => (
                 <div key={entry.id} className="bg-gray-200 p-4 rounded-lg flex justify-between items-center mb-4 shadow-sm">
